@@ -1,0 +1,361 @@
+/*
+{
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+*/
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    list-style-type: none;
+    
+    
+}
+.menu li a{
+    color: #727070;
+}
+.menu li a:hover{
+    color: gold;
+}
+.avisoImportante{
+    background-color: #000000;
+    color: #ffffff;
+    
+    padding: 5px;
+    font-size: 16px;
+}
+.avisoImportante strong {
+    color: red;
+}
+.introspeccaoLasiva {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 30pxau;
+    margin-left: auto;
+    gap: 90px;
+
+}
+
+.introspeccaoLasiva .container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 20px;
+    
+}
+h2{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 10px;
+    
+}
+.introspeccaoLasiva .container-titulo button{
+
+    width: 250px;
+    height: 50px;
+    background-color: #f4f1f1;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+.introspeccaoLasiva .container-titulo button a{
+    font-size: 22px;
+    color:gold;
+    
+}
+.introspeccaoLasiva .container-titulo button a:hover{
+    font-size: 22px;
+    color: gold;
+    ;
+
+}
+.introspeccaoLasiva .container-titulo button:hover{
+
+    width: 250px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    color: gold;
+    
+
+}
+
+
+.metalChorao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    gap: 90px;
+
+}
+
+.metalChorao .container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 20px;
+    
+}
+
+.metalChorao .container-titulo button{
+
+    width: 250px;
+    height: 50px;
+    background-color: #f4f1f1;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+.metalChorao .container-titulo button a{
+    font-size: 22px;
+    color:gold;
+    
+}
+.metalChorao .container-titulo button a:hover{
+    font-size: 22px;
+    color: gold;
+
+}
+.metalChorao .container-titulo button:hover{
+
+    width: 250px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+
+.cidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    gap: 90px;
+
+}
+
+.cidades .container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 20px;
+    
+}
+
+.cidades .container-titulo button{
+
+    width: 250px;
+    height: 50px;
+    background-color: #f4f1f1;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+.cidades .container-titulo button a{
+    font-size: 22px;
+    color:gold;
+    
+}
+.cidades .container-titulo button a:hover{
+    font-size: 22px;
+    color: gold;
+
+}
+.cidades .container-titulo button:hover{
+
+    width: 250px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+
+.contatos {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+.contatos li a {
+    color: #727070;
+}
+.contatos li a:hover{
+    color: gold;
+}
+
+
+/* O codigo CSS abaixo é para tels de celulares*/
+
+@media (max-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .menu {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        list-style-type: none;
+        
+        
+    }
+
+    .avisoImportante{
+        background-color: #000000;
+        color: #ffffff;
+        
+        padding: 5px;
+        font-size: 12px;
+    }
+    .avisoImportante strong {
+        color: red;
+    }
+
+    .introspeccaoLasiva {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-bottom: 5px;
+        margin-left: auto;
+        gap: 30px;
+    
+    }
+    
+    .introspeccaoLasiva .container-titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+        
+    }
+
+    h2{
+        font-size: 42px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-bottom: 5px;
+        margin-left: auto;
+        
+        
+    }
+
+    .metalChorao {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 30pxau;
+        margin-left: auto;
+        gap: 30px;
+    
+    }
+    
+    .metalChorao .containertitulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35%;
+        margin-left: 20px;
+        
+    }
+
+    .cidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 20px;
+        margin-right: auto;
+        margin-bottom: 30pxau;
+        margin-left: auto;
+        gap: 30px;
+    
+    }
+    
+    .cidades .containertitulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 35%;
+        margin-left: 20px;
+        
+    }
+
+    .contatos {
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        list-style-type: none;
+    }
+
+}
+    
+   
+
+
+
+

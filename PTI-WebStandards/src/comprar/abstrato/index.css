@@ -1,0 +1,168 @@
+/*
+{
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+*/
+.menu {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    list-style-type: none;
+    
+    
+}
+.menu li a{
+    color: #727070;
+}
+.menu li a:hover{
+    color: #000000;
+}
+.avisoImportante{
+    background-color: #000000;
+    color: #ffffff;
+    
+    padding: 5px;
+    font-size: 16px;
+}
+.avisoImportante strong {
+    color: red;
+}
+.introspeccaoLasiva-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 30pxau;
+    margin-left: auto;
+    gap: 112px;
+    background-color: #fefcfc;
+
+
+}
+.introspeccaoLasiva-1 img{
+
+    margin-left: 85px;
+}
+
+.introspeccaoLasiva-1 .container-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    
+}
+h1{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 10px;
+    
+}
+.introspeccaoLasiva-1 .container-titulo button{
+
+    width: 250px;
+    height: 50px;
+    background-color: #f6f1f1c6;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    
+
+}
+.introspeccaoLasiva-1 .container-titulo button a{
+    font-size: 22px;
+    color:#000000;
+    
+}
+.introspeccaoLasiva-1 .container-titulo button:hover{
+
+    width: 250px;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 30px;
+    margin-left: auto;
+    border: 2px solid #000000;
+    color:#ffffff
+    
+
+}
+.introspeccaoLasiva-1 .container-titulo button a:hover{
+    font-size: 22px;
+    color:gold;
+}
+
+footer p{
+    margin-top: 60px;;
+}
+
+/* O codigo CSS abaixo é para tels de celulares*/
+
+@media (max-width: 600px){
+
+    *{
+        margin: 0px;
+        padding: 5px;
+    }
+
+    .menu {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        list-style-type: none;
+        
+        
+    }
+
+    .introspeccaoLasiva-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border: 1px solid black;
+        gap: 0px;
+
+    }
+
+    .introspeccaoLasiva-1 img{
+
+        margin: 0px;
+        padding: 0px;
+    
+    }
+
+    .container-titulo h1{
+
+        margin: 0px;
+        font-size: 42px;
+       
+    }
+
+
+    .avisoImportante{
+        background-color: #000000;
+        color: #ffffff;
+        
+        padding: 5px;
+        font-size: 12px;
+    }
+    .avisoImportante strong {
+        color: red;
+    }
+}
